@@ -36,7 +36,7 @@ Use [bpmn-js](https://github.com/bpmn-io/bpmn-js) to display BPMN 2.0 diagrams i
 
 ## Resources
 
-* [Issues](./issues)
+* [Issues](https://github.com/bpmn-io/vue-bpmn/issues)
 * [Example](./example)
 
 
