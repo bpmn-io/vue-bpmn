@@ -1,0 +1,17 @@
+{
+  "name": "vue-bpmn-example",
+  "version": "0.0.0",
+  "description": "An example using vue-bpmn inside a Vue.js application",
+  "private": true,
+  "scripts": {
+    "start": "serve"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bpmn-js": "^3.2.3",
+    "vue-bpmn": "file:.."
+  },
+  "devDependencies": {
+    "serve": "^10.1.2"
+  }
+}

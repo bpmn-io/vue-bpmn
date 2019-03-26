@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>vue-bpmn example</title>
+
+  <!-- app dependency -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  <!-- dependency for the UMD bundle -->
+  <script src="../node_modules/bpmn-js/dist/bpmn-navigated-viewer.development.js"></script>
+
+  <!-- vue-bpmn umd distribution -->
+  <script src="../node_modules/vue-bpmn/dist/vue-bpmn.umd.js"></script>
+
+  <style>
+    .diagram-container {
+      height:  300px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <h1>Display BPMN 2.0 Diagram in a Vue.js App</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a tincidunt dolor. Nam semper est ut mauris cursus, vel laoreet nunc vehicula. Mauris nec semper ipsum. Integer feugiat mi at elementum fringilla. Nunc malesuada ante sed ligula pretium, eu lobortis lorem rhoncus. Praesent et ipsum ante. Aliquam est mi, ultrices ut neque eget, mollis pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam auctor porta sapien in venenatis.
+    </p>
+
+    <p>
+      In fringilla suscipit odio quis tincidunt. Morbi felis elit, blandit a volutpat eget, rutrum ut mi. Duis ac orci at nibh semper vehicula. Quisque vulputate, nibh vitae laoreet convallis, urna erat imperdiet eros, et interdum arcu arcu ac risus. Maecenas in tellus nisi. Mauris quis lectus luctus, condimentum orci eu, rhoncus sapien. Aliquam at lobortis mauris, eget facilisis arcu. Quisque metus purus, rhoncus et tortor id, ornare maximus neque. Donec et ex tincidunt, malesuada lacus in, volutpat eros. Cras nisi arcu, dapibus quis odio sit amet, placerat blandit elit. Nullam at dictum mauris. Nulla feugiat elit ex, a pulvinar velit faucibus a. Nulla tincidunt velit purus, in faucibus ligula ornare venenatis.
+    </p>
+
+    <div class="diagram-container">
+      <vue-bpmn
+        url="/public/diagram.bpmn"
+        v-on:error="handleError"
+        v-on:shown="handleShown"
+      ></vue-bpmn>
+    </div>
+
+    <p>
+      Ut vestibulum, magna at molestie tempus, enim sem molestie est, vel tincidunt orci leo vel sapien. Vivamus convallis, purus in rhoncus ultricies, mauris sapien condimentum sapien, vel porta urna est eu leo. Nam dui erat, venenatis at metus ut, rutrum rutrum lacus. Fusce non eros vehicula, aliquet nibh vitae, bibendum dolor. Sed hendrerit lectus ex. Mauris id venenatis metus. In hac habitasse platea dictumst.
+    </p>
+
+    <p>
+      Etiam molestie, erat eget tincidunt rutrum, nulla odio pulvinar nibh, in pulvinar felis mauris a nunc. Sed eu ullamcorper ex, id tincidunt metus. Quisque lectus enim, vehicula eget aliquam sit amet, semper ut nisl. Vivamus ultrices, cras odio massa, sagittis in luctus sed, mattis eu massa. Nam erat nibh, pulvinar vel hendrerit quis, ultricies eu sapien. Integer fringilla sapien ex, et posuere arcu euismod et.
+    </p>
+
+    <p>
+      Suspendisse potenti. In ut lorem vitae dolor molestie commodo. Vivamus mattis gravida metus, porttitor ornare augue lacinia suscipit. Duis condimentum fringilla nisl, non consequat odio mollis id. Nulla tincidunt interdum elit, sed tristique ex laoreet lobortis. Suspendisse in felis vitae magna convallis semper. Nullam odio risus, venenatis eget erat ac, pretium aliquet urna. Duis luctus lobortis maximus.
+    </p>
+  </div>
+  <script>
+    new Vue({
+      el: '#app',
+      components: {
+        VueBpmn
+      },
+      methods: {
+        handleError: function(err) {
+          console.error('failed to show diagram', err);
+        },
+        handleShown: function() {
+          console.log('diagram shown');
+        }
+      }
+    });
+  </script>
+</body>
+</html>
