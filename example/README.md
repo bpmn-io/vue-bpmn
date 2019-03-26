@@ -2,7 +2,7 @@
 
 An example how to use [vue-bpmn](../) to display a BPMN 2.0 diagram in a Vue.js app.
 
-![./docs/screenshot.png]
+![vue-bpmn example screenshot](./docs/screenshot.png)
 
 
 ## Run the Example
