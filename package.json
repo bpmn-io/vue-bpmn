@@ -1,0 +1,31 @@
+{
+  "name": "vue-bpmn",
+  "version": "0.0.0",
+  "description": "Embed BPMN 2.0 diagrams in your Vue.js app",
+  "main": "dist/index.js",
+  "scripts": {
+    "bundle": "rollup -c"
+  },
+  "module": "dist/index.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpmn-io/vue-bpmn.git"
+  },
+  "keywords": [
+    "bpmn-js",
+    "bpmn",
+    "vue-js",
+    "vue"
+  ],
+  "author": {
+    "name": "Nico Rehwaldt",
+    "url": "https://github.com/nikku"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.7.3",
+    "rollup-plugin-commonjs": "^9.2.2",
+    "rollup-plugin-vue": "^4.7.2",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
