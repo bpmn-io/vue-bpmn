@@ -11,6 +11,7 @@ Use [bpmn-js](https://github.com/bpmn-io/bpmn-js) to display BPMN 2.0 diagrams i
     url="/public/diagram.bpmn"
     v-on:error="handleError"
     v-on:shown="handleShown"
+    v-on:loading="handleLoading"
   ></vue-bpmn>
 </template>
 
@@ -27,6 +28,9 @@ Use [bpmn-js](https://github.com/bpmn-io/bpmn-js) to display BPMN 2.0 diagrams i
       },
       handleShown: function() {
         console.log('diagram shown');
+      },
+      handleLoading: function() {
+        console.log('diagram loading');
       }
     }
   };

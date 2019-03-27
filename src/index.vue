@@ -50,6 +50,7 @@
     },
     watch: {
       url: function(val) {
+        this.$emit('loading');
         this.fetch(url);
       },
       diagramXML: function(val) {
