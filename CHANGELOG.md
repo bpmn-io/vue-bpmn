@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to [moddle-xml](https://github.com/bpmn-io/vue-bpmn) are documented here. We use [semantic versioning](http://semver.org/) for releases.
+All notable changes to [vue-bpmn](https://github.com/bpmn-io/vue-bpmn) are documented here. We use [semantic versioning](http://semver.org/) for releases.
 
 ## Unreleased
 
