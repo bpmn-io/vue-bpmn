@@ -4,7 +4,8 @@
   "description": "Embed BPMN 2.0 diagrams in your Vue.js app",
   "main": "dist/index.js",
   "scripts": {
-    "bundle": "rollup -c"
+    "bundle": "rollup -c",
+    "prepublishOnly": "npm run bundle"
   },
   "module": "dist/index.esm.js",
   "repository": {
