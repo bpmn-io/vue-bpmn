@@ -51,7 +51,7 @@
     watch: {
       url: function(val) {
         this.$emit('loading');
-        this.fetch(url);
+        this.fetchDiagram(url);
       },
       diagramXML: function(val) {
         this.bpmnViewer.importXML(val);
