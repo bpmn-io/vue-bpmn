@@ -1,6 +1,6 @@
 {
   "name": "vue-bpmn",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Embed BPMN 2.0 diagrams in your Vue.js app",
   "main": "dist/index.js",
   "scripts": {
