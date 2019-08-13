@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "bpmn-js": "^3.2.3",
-    "vue-bpmn": "file:.."
+    "vue-bpmn": "^0.2.1"
   },
   "devDependencies": {
     "serve": "^10.1.2"
