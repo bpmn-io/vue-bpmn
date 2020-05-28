@@ -37,6 +37,8 @@ Use [bpmn-js](https://github.com/bpmn-io/bpmn-js) to display BPMN 2.0 diagrams i
 </script>
 ```
 
+Note that the diagram will be loaded via ajax from the given `url` and thus must be served by your app.
+
 
 ## Resources
 
