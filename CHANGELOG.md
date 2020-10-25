@@ -6,6 +6,10 @@ All notable changes to [vue-bpmn](https://github.com/bpmn-io/vue-bpmn) are docum
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.2.2
+
+* `FIX`: correct watching for URL changes
+
 ## 0.2.1
 
 * `FIX`: correct undefined `fetch` method
