@@ -25,7 +25,7 @@
       var container = this.$refs.container;
 
       var self = this;
-      const _options = object.assign({
+      const _options = Object.assign({
         container: container
       },options)
       this.bpmnViewer = new BpmnJS(_options);
