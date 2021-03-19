@@ -27,7 +27,7 @@
       var self = this;
       const _options = Object.assign({
         container: container
-      },options)
+      },this.options)
       this.bpmnViewer = new BpmnJS(_options);
 
       this.bpmnViewer.on('import.done', function(event) {
