@@ -12,8 +12,8 @@
         type: String,
         required: true
       },
-      options:{
-        type:Object
+      options: {
+        type: Object
       }
     },
     data: function() {
@@ -25,9 +25,9 @@
       var container = this.$refs.container;
 
       var self = this;
-      const _options = Object.assign({
+      var _options = Object.assign({
         container: container
-      },this.options)
+      }, this.options)
       this.bpmnViewer = new BpmnJS(_options);
 
       this.bpmnViewer.on('import.done', function(event) {
