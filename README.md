@@ -31,7 +31,7 @@ Use [bpmn-js](https://github.com/bpmn-io/bpmn-js) to display BPMN 2.0 diagrams i
           moddleExtensions: []
         }
       }
-    }
+    },
     methods: {
       handleError: function(err) {
         console.error('failed to show diagram', err);
