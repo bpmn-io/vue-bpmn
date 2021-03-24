@@ -6,6 +6,10 @@ All notable changes to [vue-bpmn](https://github.com/bpmn-io/vue-bpmn) are docum
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.3.0
+
+* `FEAT`: accept [BPMN viewer](https://github.com/bpmn-io/bpmn-js) options
+
 ## 0.2.2
 
 * `FIX`: correct watching for URL changes
