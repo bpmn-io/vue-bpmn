@@ -9,6 +9,7 @@ Use [bpmn-js](https://github.com/bpmn-io/bpmn-js) to display BPMN 2.0 diagrams i
 <template>
   <vue-bpmn
     url="/public/diagram.bpmn"
+    :options="options"
     v-on:error="handleError"
     v-on:shown="handleShown"
     v-on:loading="handleLoading"
@@ -21,6 +22,15 @@ Use [bpmn-js](https://github.com/bpmn-io/bpmn-js) to display BPMN 2.0 diagrams i
   export default {
     components: {
       VueBpmn
+    },
+    data() {
+      return {
+        options: {
+          propertiesPanel: {},
+          additionalModules: [],
+          moddleExtensions: []
+        }
+      }
     },
     methods: {
       handleError: function(err) {
