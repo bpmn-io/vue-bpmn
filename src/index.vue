@@ -3,6 +3,7 @@
 </template>
 
 <script>
+  import Vue from 'vue'
   import BpmnJS from 'bpmn-js/dist/bpmn-navigated-viewer.production.min.js';
 
   export default {
@@ -29,7 +30,7 @@
         container: container
       }, this.options)
       this.bpmnViewer = new BpmnJS(_options);
-
+      Vue.prototype.$bpmnViewer=this.bpmnViewer
       this.bpmnViewer.on('import.done', function(event) {
 
         var error = event.error;
