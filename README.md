@@ -1,5 +1,7 @@
 # vue-bpmn
 
+[![CI](https://github.com/bpmn-io/vue-bpmn/actions/workflows/CI.yml/badge.svg)](https://github.com/bpmn-io/vue-bpmn/actions/workflows/CI.yml)
+
 Use [bpmn-js](https://github.com/bpmn-io/bpmn-js) to display BPMN 2.0 diagrams in a [Vue.js](https://vuejs.org) application.
 
 
