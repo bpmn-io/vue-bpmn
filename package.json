@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "bundle": "rollup -c",
-    "prepublishOnly": "npm run bundle"
+    "prepublishOnly": "npm run bundle",
+    "all": "npm run bundle"
   },
   "module": "dist/index.esm.js",
   "repository": {
