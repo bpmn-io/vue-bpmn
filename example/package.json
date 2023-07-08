@@ -12,6 +12,6 @@
     "vue-bpmn": "^0.3.0"
   },
   "devDependencies": {
-    "serve": "^12.0.0"
+    "serve": "^14.0.0"
   }
 }
