@@ -25,9 +25,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "rollup": "^1.7.3",
-    "rollup-plugin-commonjs": "^9.2.2",
-    "rollup-plugin-vue": "^4.7.2",
+    "rollup": "^3.0.0",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-vue": "^6.0.0",
     "vue-template-compiler": "^2.6.10"
   }
 }
