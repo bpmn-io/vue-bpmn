@@ -4,7 +4,7 @@
   "description": "Embed BPMN 2.0 diagrams in your Vue.js app",
   "main": "dist/index.js",
   "scripts": {
-    "bundle": "rollup -c",
+    "bundle": "rollup -c --bundleConfigAsCjs",
     "prepublishOnly": "npm run bundle",
     "all": "npm run bundle"
   },
@@ -25,9 +25,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "rollup": "^1.7.3",
-    "rollup-plugin-commonjs": "^9.2.2",
-    "rollup-plugin-vue": "^4.7.2",
-    "vue-template-compiler": "^2.6.10"
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "rollup": "^4.1.4",
+    "rollup-plugin-postcss": "^4.0.2"
   }
 }
