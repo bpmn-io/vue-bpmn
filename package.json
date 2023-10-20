@@ -3,12 +3,12 @@
   "version": "0.3.0",
   "description": "Embed BPMN 2.0 diagrams in your Vue.js app",
   "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "scripts": {
     "bundle": "rollup -c --bundleConfigAsCjs",
     "prepublishOnly": "npm run bundle",
     "all": "npm run bundle"
   },
-  "module": "dist/index.esm.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bpmn-io/vue-bpmn.git"
